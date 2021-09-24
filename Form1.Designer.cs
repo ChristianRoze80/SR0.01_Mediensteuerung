@@ -30,7 +30,6 @@ namespace SR0._01_Mediensteuerung
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Extron_VGA_Pult = new System.Windows.Forms.Button();
             this.Extron_HDMI_Pult = new System.Windows.Forms.Button();
             this.Extron_PC_Pult = new System.Windows.Forms.Button();
@@ -61,10 +60,9 @@ namespace SR0._01_Mediensteuerung
             // 
             // Extron_VGA_Pult
             // 
-            this.Extron_VGA_Pult.Location = new System.Drawing.Point(4, 32);
-            this.Extron_VGA_Pult.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Extron_VGA_Pult.Location = new System.Drawing.Point(6, 49);
             this.Extron_VGA_Pult.Name = "Extron_VGA_Pult";
-            this.Extron_VGA_Pult.Size = new System.Drawing.Size(83, 77);
+            this.Extron_VGA_Pult.Size = new System.Drawing.Size(124, 118);
             this.Extron_VGA_Pult.TabIndex = 1;
             this.Extron_VGA_Pult.Text = "VGA Pult";
             this.Extron_VGA_Pult.UseVisualStyleBackColor = true;
@@ -72,10 +70,9 @@ namespace SR0._01_Mediensteuerung
             // 
             // Extron_HDMI_Pult
             // 
-            this.Extron_HDMI_Pult.Location = new System.Drawing.Point(99, 118);
-            this.Extron_HDMI_Pult.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Extron_HDMI_Pult.Location = new System.Drawing.Point(148, 182);
             this.Extron_HDMI_Pult.Name = "Extron_HDMI_Pult";
-            this.Extron_HDMI_Pult.Size = new System.Drawing.Size(83, 77);
+            this.Extron_HDMI_Pult.Size = new System.Drawing.Size(124, 118);
             this.Extron_HDMI_Pult.TabIndex = 2;
             this.Extron_HDMI_Pult.Text = "HDMI Pult";
             this.Extron_HDMI_Pult.UseVisualStyleBackColor = true;
@@ -83,10 +80,9 @@ namespace SR0._01_Mediensteuerung
             // 
             // Extron_PC_Pult
             // 
-            this.Extron_PC_Pult.Location = new System.Drawing.Point(4, 118);
-            this.Extron_PC_Pult.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Extron_PC_Pult.Location = new System.Drawing.Point(6, 182);
             this.Extron_PC_Pult.Name = "Extron_PC_Pult";
-            this.Extron_PC_Pult.Size = new System.Drawing.Size(83, 77);
+            this.Extron_PC_Pult.Size = new System.Drawing.Size(124, 118);
             this.Extron_PC_Pult.TabIndex = 3;
             this.Extron_PC_Pult.Text = "PC Pult";
             this.Extron_PC_Pult.UseVisualStyleBackColor = true;
@@ -94,10 +90,9 @@ namespace SR0._01_Mediensteuerung
             // 
             // Extron_Dokumenten_Kamera
             // 
-            this.Extron_Dokumenten_Kamera.Location = new System.Drawing.Point(99, 32);
-            this.Extron_Dokumenten_Kamera.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Extron_Dokumenten_Kamera.Location = new System.Drawing.Point(148, 49);
             this.Extron_Dokumenten_Kamera.Name = "Extron_Dokumenten_Kamera";
-            this.Extron_Dokumenten_Kamera.Size = new System.Drawing.Size(83, 77);
+            this.Extron_Dokumenten_Kamera.Size = new System.Drawing.Size(124, 118);
             this.Extron_Dokumenten_Kamera.TabIndex = 4;
             this.Extron_Dokumenten_Kamera.Text = "Dokumenten Kamera";
             this.Extron_Dokumenten_Kamera.UseVisualStyleBackColor = true;
@@ -105,10 +100,9 @@ namespace SR0._01_Mediensteuerung
             // 
             // Roland_Kamera_Tafel
             // 
-            this.Roland_Kamera_Tafel.Location = new System.Drawing.Point(99, 118);
-            this.Roland_Kamera_Tafel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Roland_Kamera_Tafel.Location = new System.Drawing.Point(148, 182);
             this.Roland_Kamera_Tafel.Name = "Roland_Kamera_Tafel";
-            this.Roland_Kamera_Tafel.Size = new System.Drawing.Size(83, 77);
+            this.Roland_Kamera_Tafel.Size = new System.Drawing.Size(124, 118);
             this.Roland_Kamera_Tafel.TabIndex = 9;
             this.Roland_Kamera_Tafel.Text = "Kamera\r\nTafel";
             this.Roland_Kamera_Tafel.UseVisualStyleBackColor = true;
@@ -116,10 +110,9 @@ namespace SR0._01_Mediensteuerung
             // 
             // Roland_Kamera_Whiteboard
             // 
-            this.Roland_Kamera_Whiteboard.Location = new System.Drawing.Point(3, 118);
-            this.Roland_Kamera_Whiteboard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Roland_Kamera_Whiteboard.Location = new System.Drawing.Point(4, 182);
             this.Roland_Kamera_Whiteboard.Name = "Roland_Kamera_Whiteboard";
-            this.Roland_Kamera_Whiteboard.Size = new System.Drawing.Size(83, 77);
+            this.Roland_Kamera_Whiteboard.Size = new System.Drawing.Size(124, 118);
             this.Roland_Kamera_Whiteboard.TabIndex = 8;
             this.Roland_Kamera_Whiteboard.Text = "Kamera Whiteboard";
             this.Roland_Kamera_Whiteboard.UseVisualStyleBackColor = true;
@@ -127,10 +120,9 @@ namespace SR0._01_Mediensteuerung
             // 
             // Roland_Dokumenten_Kamera
             // 
-            this.Roland_Dokumenten_Kamera.Location = new System.Drawing.Point(99, 27);
-            this.Roland_Dokumenten_Kamera.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Roland_Dokumenten_Kamera.Location = new System.Drawing.Point(148, 42);
             this.Roland_Dokumenten_Kamera.Name = "Roland_Dokumenten_Kamera";
-            this.Roland_Dokumenten_Kamera.Size = new System.Drawing.Size(83, 77);
+            this.Roland_Dokumenten_Kamera.Size = new System.Drawing.Size(124, 118);
             this.Roland_Dokumenten_Kamera.TabIndex = 7;
             this.Roland_Dokumenten_Kamera.Text = "Dokumenten Kamera";
             this.Roland_Dokumenten_Kamera.UseVisualStyleBackColor = true;
@@ -138,10 +130,9 @@ namespace SR0._01_Mediensteuerung
             // 
             // Roland_HDMI_Pult
             // 
-            this.Roland_HDMI_Pult.Location = new System.Drawing.Point(3, 27);
-            this.Roland_HDMI_Pult.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Roland_HDMI_Pult.Location = new System.Drawing.Point(4, 42);
             this.Roland_HDMI_Pult.Name = "Roland_HDMI_Pult";
-            this.Roland_HDMI_Pult.Size = new System.Drawing.Size(83, 77);
+            this.Roland_HDMI_Pult.Size = new System.Drawing.Size(124, 118);
             this.Roland_HDMI_Pult.TabIndex = 6;
             this.Roland_HDMI_Pult.Text = "HDMI Pult\r\n\"Streaming\"";
             this.Roland_HDMI_Pult.UseVisualStyleBackColor = true;
@@ -153,11 +144,9 @@ namespace SR0._01_Mediensteuerung
             this.groupBox1.Controls.Add(this.Extron_HDMI_Pult);
             this.groupBox1.Controls.Add(this.Extron_PC_Pult);
             this.groupBox1.Controls.Add(this.Extron_Dokumenten_Kamera);
-            this.groupBox1.Location = new System.Drawing.Point(13, 7);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Location = new System.Drawing.Point(20, 11);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox1.Size = new System.Drawing.Size(189, 203);
+            this.groupBox1.Size = new System.Drawing.Size(284, 312);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Beamer";
@@ -168,11 +157,9 @@ namespace SR0._01_Mediensteuerung
             this.groupBox2.Controls.Add(this.Roland_HDMI_Pult);
             this.groupBox2.Controls.Add(this.Roland_Dokumenten_Kamera);
             this.groupBox2.Controls.Add(this.Roland_Kamera_Whiteboard);
-            this.groupBox2.Location = new System.Drawing.Point(13, 233);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Location = new System.Drawing.Point(20, 358);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox2.Size = new System.Drawing.Size(189, 203);
+            this.groupBox2.Size = new System.Drawing.Size(284, 312);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Videokonferenz";
@@ -202,11 +189,9 @@ namespace SR0._01_Mediensteuerung
             this.groupBox3.Controls.Add(this.button3);
             this.groupBox3.Controls.Add(this.button2);
             this.groupBox3.Controls.Add(this.button1);
-            this.groupBox3.Location = new System.Drawing.Point(227, 233);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Location = new System.Drawing.Point(340, 358);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox3.Size = new System.Drawing.Size(257, 203);
+            this.groupBox3.Size = new System.Drawing.Size(386, 312);
             this.groupBox3.TabIndex = 12;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Kamera Steuerung";
@@ -214,10 +199,9 @@ namespace SR0._01_Mediensteuerung
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(203, 108);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Location = new System.Drawing.Point(304, 166);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(50, 40);
+            this.button6.Size = new System.Drawing.Size(75, 62);
             this.button6.TabIndex = 5;
             this.button6.Text = "-";
             this.button6.UseVisualStyleBackColor = true;
@@ -227,23 +211,22 @@ namespace SR0._01_Mediensteuerung
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(203, 64);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Location = new System.Drawing.Point(304, 98);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(50, 40);
+            this.button5.Size = new System.Drawing.Size(75, 62);
             this.button5.TabIndex = 4;
             this.button5.Text = "+";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             this.button5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button5_MouseDown);
             this.button5.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button5_MouseUp);
             // 
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(128, 91);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Location = new System.Drawing.Point(192, 140);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(50, 40);
+            this.button4.Size = new System.Drawing.Size(75, 62);
             this.button4.TabIndex = 3;
             this.button4.Text = "▶";
             this.button4.UseVisualStyleBackColor = true;
@@ -253,10 +236,9 @@ namespace SR0._01_Mediensteuerung
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(74, 135);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Location = new System.Drawing.Point(111, 208);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(50, 40);
+            this.button3.Size = new System.Drawing.Size(75, 62);
             this.button3.TabIndex = 2;
             this.button3.Text = "▼";
             this.button3.UseVisualStyleBackColor = true;
@@ -266,10 +248,9 @@ namespace SR0._01_Mediensteuerung
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(18, 91);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(27, 140);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(50, 40);
+            this.button2.Size = new System.Drawing.Size(75, 62);
             this.button2.TabIndex = 1;
             this.button2.Text = "◀";
             this.button2.UseVisualStyleBackColor = true;
@@ -279,10 +260,9 @@ namespace SR0._01_Mediensteuerung
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(74, 47);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(111, 72);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(50, 40);
+            this.button1.Size = new System.Drawing.Size(75, 62);
             this.button1.TabIndex = 0;
             this.button1.Text = "▲";
             this.button1.UseVisualStyleBackColor = true;
@@ -292,26 +272,24 @@ namespace SR0._01_Mediensteuerung
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.pictureBox1.Location = new System.Drawing.Point(227, 7);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(340, 11);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(257, 203);
+            this.pictureBox1.Size = new System.Drawing.Size(386, 312);
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(504, 441);
+            this.ClientSize = new System.Drawing.Size(747, 652);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.MaximumSize = new System.Drawing.Size(520, 480);
-            this.MinimumSize = new System.Drawing.Size(520, 480);
+            this.MaximumSize = new System.Drawing.Size(769, 708);
+            this.MinimumSize = new System.Drawing.Size(769, 708);
             this.Name = "Form1";
             this.Text = "ACI Seminarraum 0.01 Mediensteuerung";
             this.groupBox1.ResumeLayout(false);

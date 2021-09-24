@@ -295,5 +295,10 @@ namespace SR0._01_Mediensteuerung
                 serialPort3.Write(dataByte, 0, 6);
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
