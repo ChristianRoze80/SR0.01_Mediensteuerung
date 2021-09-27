@@ -110,7 +110,7 @@ namespace SR0._01_Mediensteuerung
             this.Roland_Kamera_Tafel.Name = "Roland_Kamera_Tafel";
             this.Roland_Kamera_Tafel.Size = new System.Drawing.Size(148, 118);
             this.Roland_Kamera_Tafel.TabIndex = 9;
-            this.Roland_Kamera_Tafel.Text = "Kamera\r\nTafel";
+            this.Roland_Kamera_Tafel.Text = "Tafel\r\nKamera\r\n";
             this.Roland_Kamera_Tafel.UseVisualStyleBackColor = true;
             this.Roland_Kamera_Tafel.Click += new System.EventHandler(this.Roland_Kamera_Tafel_Click);
             // 
@@ -121,7 +121,7 @@ namespace SR0._01_Mediensteuerung
             this.Roland_Kamera_Whiteboard.Name = "Roland_Kamera_Whiteboard";
             this.Roland_Kamera_Whiteboard.Size = new System.Drawing.Size(148, 118);
             this.Roland_Kamera_Whiteboard.TabIndex = 8;
-            this.Roland_Kamera_Whiteboard.Text = "Kamera Whiteboard";
+            this.Roland_Kamera_Whiteboard.Text = "Whiteboard Kamera";
             this.Roland_Kamera_Whiteboard.UseVisualStyleBackColor = true;
             this.Roland_Kamera_Whiteboard.Click += new System.EventHandler(this.Roland_Kamera_Whiteboard_Click);
             // 
