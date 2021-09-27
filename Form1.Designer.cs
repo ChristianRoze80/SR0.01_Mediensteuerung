@@ -106,7 +106,7 @@ namespace SR0._01_Mediensteuerung
             // Roland_Kamera_Tafel
             // 
             this.Roland_Kamera_Tafel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Roland_Kamera_Tafel.Location = new System.Drawing.Point(6, 37);
+            this.Roland_Kamera_Tafel.Location = new System.Drawing.Point(166, 177);
             this.Roland_Kamera_Tafel.Name = "Roland_Kamera_Tafel";
             this.Roland_Kamera_Tafel.Size = new System.Drawing.Size(148, 118);
             this.Roland_Kamera_Tafel.TabIndex = 9;
@@ -139,7 +139,7 @@ namespace SR0._01_Mediensteuerung
             // Roland_HDMI_Pult
             // 
             this.Roland_HDMI_Pult.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Roland_HDMI_Pult.Location = new System.Drawing.Point(166, 177);
+            this.Roland_HDMI_Pult.Location = new System.Drawing.Point(6, 37);
             this.Roland_HDMI_Pult.Name = "Roland_HDMI_Pult";
             this.Roland_HDMI_Pult.Size = new System.Drawing.Size(148, 118);
             this.Roland_HDMI_Pult.TabIndex = 6;
