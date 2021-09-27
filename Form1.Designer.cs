@@ -46,17 +46,17 @@ namespace SR0._01_Mediensteuerung
             this.serialPort3 = new System.IO.Ports.SerialPort(this.components);
             this.serialPort4 = new System.IO.Ports.SerialPort(this.components);
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Extron_VGA_Pult
@@ -158,7 +158,7 @@ namespace SR0._01_Mediensteuerung
             this.groupBox2.Controls.Add(this.Roland_HDMI_Pult);
             this.groupBox2.Controls.Add(this.Roland_Dokumenten_Kamera);
             this.groupBox2.Controls.Add(this.Roland_Kamera_Whiteboard);
-            this.groupBox2.Location = new System.Drawing.Point(20, 358);
+            this.groupBox2.Location = new System.Drawing.Point(420, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(284, 312);
             this.groupBox2.TabIndex = 11;
@@ -184,23 +184,52 @@ namespace SR0._01_Mediensteuerung
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.radioButton2);
+            this.groupBox3.Controls.Add(this.radioButton1);
             this.groupBox3.Controls.Add(this.button6);
             this.groupBox3.Controls.Add(this.button5);
             this.groupBox3.Controls.Add(this.button4);
             this.groupBox3.Controls.Add(this.button3);
             this.groupBox3.Controls.Add(this.button2);
             this.groupBox3.Controls.Add(this.button1);
-            this.groupBox3.Location = new System.Drawing.Point(340, 358);
+            this.groupBox3.Location = new System.Drawing.Point(20, 330);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(386, 312);
+            this.groupBox3.Size = new System.Drawing.Size(684, 314);
             this.groupBox3.TabIndex = 12;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Kamera Steuerung";
             // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(19, 191);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(154, 78);
+            this.radioButton2.TabIndex = 9;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Tafel\r\nKamera";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(19, 65);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(207, 78);
+            this.radioButton1.TabIndex = 8;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Whiteboard\r\nKamera";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged_1);
+            // 
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(304, 166);
+            this.button6.Location = new System.Drawing.Point(579, 195);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 62);
             this.button6.TabIndex = 5;
@@ -212,7 +241,7 @@ namespace SR0._01_Mediensteuerung
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(304, 98);
+            this.button5.Location = new System.Drawing.Point(579, 59);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 62);
             this.button5.TabIndex = 4;
@@ -225,7 +254,7 @@ namespace SR0._01_Mediensteuerung
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(192, 140);
+            this.button4.Location = new System.Drawing.Point(431, 127);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 62);
             this.button4.TabIndex = 3;
@@ -237,7 +266,7 @@ namespace SR0._01_Mediensteuerung
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(111, 208);
+            this.button3.Location = new System.Drawing.Point(350, 195);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 62);
             this.button3.TabIndex = 2;
@@ -249,7 +278,7 @@ namespace SR0._01_Mediensteuerung
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(27, 140);
+            this.button2.Location = new System.Drawing.Point(266, 127);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 62);
             this.button2.TabIndex = 1;
@@ -261,23 +290,15 @@ namespace SR0._01_Mediensteuerung
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(111, 72);
+            this.button1.Location = new System.Drawing.Point(350, 59);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 62);
             this.button1.TabIndex = 0;
             this.button1.Text = "▲";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button1_MouseDown);
             this.button1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.pictureBox1.Location = new System.Drawing.Point(340, 11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(386, 312);
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -285,7 +306,6 @@ namespace SR0._01_Mediensteuerung
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(747, 652);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -297,7 +317,7 @@ namespace SR0._01_Mediensteuerung
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -318,13 +338,14 @@ namespace SR0._01_Mediensteuerung
         private System.IO.Ports.SerialPort serialPort3;
         private System.IO.Ports.SerialPort serialPort4;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
 
