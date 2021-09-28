@@ -182,6 +182,7 @@ namespace SR0._01_Mediensteuerung
             // 
             // serialPort2
             // 
+            this.serialPort2.Handshake = System.IO.Ports.Handshake.XOnXOff;
             this.serialPort2.PortName = "COM5";
             // 
             // serialPort3

@@ -43,12 +43,12 @@ namespace SR0._01_Mediensteuerung
             this.radioButton1.Checked = true;
             if (serialPort2.IsOpen)
             {
-                serialPort2.Write(STX + "PGM:3;");
+                serialPort2.Write(STX + "PGM:2;");
             }
             else
             {
                 serialPort2.Open();
-                serialPort2.Write(STX + "PGM:3;");
+                serialPort2.Write(STX + "PGM:2;");
             }
         }
 
@@ -95,12 +95,12 @@ namespace SR0._01_Mediensteuerung
         {
             if (serialPort2.IsOpen)
             {
-                serialPort2.Write(STX + "PGM:1;");
+                serialPort2.Write(STX + "PGM:0;");
             }
             else
             {
                 serialPort2.Open();
-                serialPort2.Write(STX + "PGM:1;");
+                serialPort2.Write(STX + "PGM:0;");
             }
         }
 
@@ -108,12 +108,12 @@ namespace SR0._01_Mediensteuerung
         {
             if (serialPort2.IsOpen)
             {
-                serialPort2.Write(STX + "PGM:2;");
+                serialPort2.Write(STX + "PGM:1;");
             }
             else
             {
                 serialPort2.Open();
-                serialPort2.Write(STX + "PGM:2;");
+                serialPort2.Write(STX + "PGM:1;");
             }
         }
 
@@ -123,12 +123,12 @@ namespace SR0._01_Mediensteuerung
             this.radioButton2.Checked = true;
             if (serialPort2.IsOpen)
             {
-                serialPort2.Write(STX + "PGM:4;");
+                serialPort2.Write(STX + "PGM:3;");
             }
             else
             {
                 serialPort2.Open();
-                serialPort2.Write(STX + "PGM:4;");
+                serialPort2.Write(STX + "PGM:3;");
             }
         }
 
