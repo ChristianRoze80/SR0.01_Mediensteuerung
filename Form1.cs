@@ -29,11 +29,13 @@ namespace SR0._01_Mediensteuerung
             if (serialPort1.IsOpen)
             {
                 serialPort1.Write("X1!");
+                serialPort1.Write("0B");
             }
             else
             {
                 serialPort1.Open();
                 serialPort1.Write("X1!");
+                serialPort1.Write("0B");
             }
         }
 
@@ -57,11 +59,13 @@ namespace SR0._01_Mediensteuerung
             if (serialPort1.IsOpen)
             {
                 serialPort1.Write("X4!");
+                serialPort1.Write("0B");
             }
             else
             {
                 serialPort1.Open();
                 serialPort1.Write("X4!");
+                serialPort1.Write("0B");
             }
         }
 
@@ -70,11 +74,13 @@ namespace SR0._01_Mediensteuerung
             if (serialPort1.IsOpen)
             {
                 serialPort1.Write("X3!");
+                serialPort1.Write("0B");
             }
             else
             {
                 serialPort1.Open();
                 serialPort1.Write("X3!");
+                serialPort1.Write("0B");
             }
         }
 
@@ -83,11 +89,13 @@ namespace SR0._01_Mediensteuerung
             if (serialPort1.IsOpen)
             {
                 serialPort1.Write("X2!");
+                serialPort1.Write("0B");
             }
             else
             {
                 serialPort1.Open();
                 serialPort1.Write("X2!");
+                serialPort1.Write("0B");
             }
         }
 
@@ -498,6 +506,145 @@ namespace SR0._01_Mediensteuerung
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             comport = "serialPort4";
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if (serialPort1.IsOpen)
+            {
+                serialPort1.Write("2B");
+            }
+            else
+            {
+                serialPort1.Open();
+                serialPort1.Write("2B");
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            var dataByte = new byte[] { 0x81, 0x01, 0x04, 0x3F, 0x02, 0x00, 0xFF }; //Preset0
+            if (comport == "serialPort3")
+            {
+                if (serialPort3.IsOpen)
+                {
+                    serialPort3.Write(dataByte, 0, 7);
+                }
+                else
+                {
+                    serialPort3.Open();
+                    serialPort3.Write(dataByte, 0, 7);
+                }
+            }
+            else
+            {
+                if (serialPort4.IsOpen)
+                {
+                    serialPort4.Write(dataByte, 0, 7);
+                }
+                else
+                {
+                    serialPort4.Open();
+                    serialPort4.Write(dataByte, 0, 7);
+                }
+            }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            var dataByte = new byte[] { 0x81, 0x01, 0x04, 0x3F, 0x02, 0x01, 0xFF }; //Preset1
+            if (comport == "serialPort3")
+            {
+                if (serialPort3.IsOpen)
+                {
+                    serialPort3.Write(dataByte, 0, 7);
+                }
+                else
+                {
+                    serialPort3.Open();
+                    serialPort3.Write(dataByte, 0, 7);
+                }
+            }
+            else
+            {
+                if (serialPort4.IsOpen)
+                {
+                    serialPort4.Write(dataByte, 0, 7);
+                }
+                else
+                {
+                    serialPort4.Open();
+                    serialPort4.Write(dataByte, 0, 7);
+                }
+            }
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            var dataByte = new byte[] { 0x81, 0x01, 0x04, 0x3F, 0x02, 0x02, 0xFF }; //Preset2
+            if (comport == "serialPort3")
+            {
+                if (serialPort3.IsOpen)
+                {
+                    serialPort3.Write(dataByte, 0, 7);
+                }
+                else
+                {
+                    serialPort3.Open();
+                    serialPort3.Write(dataByte, 0, 7);
+                }
+            }
+            else
+            {
+                if (serialPort4.IsOpen)
+                {
+                    serialPort4.Write(dataByte, 0, 7);
+                }
+                else
+                {
+                    serialPort4.Open();
+                    serialPort4.Write(dataByte, 0, 7);
+                }
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            var dataByte = new byte[] { 0x81, 0x01, 0x04, 0x3F, 0x02, 0x03, 0xFF }; //Preset3
+            if (comport == "serialPort3")
+            {
+                if (serialPort3.IsOpen)
+                {
+                    serialPort3.Write(dataByte, 0, 7);
+                }
+                else
+                {
+                    serialPort3.Open();
+                    serialPort3.Write(dataByte, 0, 7);
+                }
+            }
+            else
+            {
+                if (serialPort4.IsOpen)
+                {
+                    serialPort4.Write(dataByte, 0, 7);
+                }
+                else
+                {
+                    serialPort4.Open();
+                    serialPort4.Write(dataByte, 0, 7);
+                }
+            }
         }
     }
 }
