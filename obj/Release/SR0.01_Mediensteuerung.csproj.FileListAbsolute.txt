@@ -8,3 +8,13 @@ C:\Users\roze.PCROZE\source\repos\ChristianRoze80\SR0.01_Mediensteuerung\obj\Rel
 C:\Users\roze.PCROZE\source\repos\ChristianRoze80\SR0.01_Mediensteuerung\obj\Release\SR0.01_Mediensteuerung.csproj.CoreCompileInputs.cache
 C:\Users\roze.PCROZE\source\repos\ChristianRoze80\SR0.01_Mediensteuerung\obj\Release\SR0.01_Mediensteuerung.exe
 C:\Users\roze.PCROZE\source\repos\ChristianRoze80\SR0.01_Mediensteuerung\obj\Release\SR0.01_Mediensteuerung.pdb
+C:\Users\roze\source\repos\SR0.01_Mediensteuerung\bin\Release\SR0.01_Mediensteuerung.exe.config
+C:\Users\roze\source\repos\SR0.01_Mediensteuerung\bin\Release\SR0.01_Mediensteuerung.exe
+C:\Users\roze\source\repos\SR0.01_Mediensteuerung\bin\Release\SR0.01_Mediensteuerung.pdb
+C:\Users\roze\source\repos\SR0.01_Mediensteuerung\obj\Release\SR0.01_Mediensteuerung.csproj.AssemblyReference.cache
+C:\Users\roze\source\repos\SR0.01_Mediensteuerung\obj\Release\SR0._01_Mediensteuerung.Form1.resources
+C:\Users\roze\source\repos\SR0.01_Mediensteuerung\obj\Release\SR0._01_Mediensteuerung.Properties.Resources.resources
+C:\Users\roze\source\repos\SR0.01_Mediensteuerung\obj\Release\SR0.01_Mediensteuerung.csproj.GenerateResource.cache
+C:\Users\roze\source\repos\SR0.01_Mediensteuerung\obj\Release\SR0.01_Mediensteuerung.csproj.CoreCompileInputs.cache
+C:\Users\roze\source\repos\SR0.01_Mediensteuerung\obj\Release\SR0.01_Mediensteuerung.exe
+C:\Users\roze\source\repos\SR0.01_Mediensteuerung\obj\Release\SR0.01_Mediensteuerung.pdb
