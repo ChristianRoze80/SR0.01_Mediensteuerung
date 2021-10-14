@@ -15,6 +15,7 @@ namespace SR0._01_Mediensteuerung
     {
         string STX = "\x02"; //Steuerzeichen STX wird für Extron Umschalter benötigt
         string comport = "serialPort3"; //Hier wird die zu steuernde Kamera initial festgelegt
+        
         public Form1()
         {
             InitializeComponent();
@@ -510,11 +511,13 @@ namespace SR0._01_Mediensteuerung
         private void radioButton1_CheckedChanged_1(object sender, EventArgs e)
         {
             comport = "serialPort3";
+            button11.Visible = false;
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             comport = "serialPort4";
+            button11.Visible = true;
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -655,5 +658,7 @@ namespace SR0._01_Mediensteuerung
                 }
             }
         }
+
+        
     }
 }
