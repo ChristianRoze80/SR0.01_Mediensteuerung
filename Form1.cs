@@ -660,7 +660,5 @@ namespace SR0._01_Mediensteuerung
                 }
             }
         }
-
-        
     }
 }
