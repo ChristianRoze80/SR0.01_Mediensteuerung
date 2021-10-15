@@ -42,11 +42,12 @@ namespace SR0._01_Mediensteuerung
             
             if (picturemute != "unmuted")
             {
-                Thread.Sleep(10);
+                Thread.Sleep(1500);
                 serialPort1.Write("0B");
                 picturemute = "unmuted";
                 
             }
+            Thread.Sleep(500);
         }
 
         private void Roland_Kamera_Whiteboard_Click(object sender, EventArgs e)
@@ -78,11 +79,12 @@ namespace SR0._01_Mediensteuerung
 
             if (picturemute != "unmuted")
             {
-                Thread.Sleep(10);
+                Thread.Sleep(1500);
                 serialPort1.Write("0B");
                 picturemute = "unmuted";
 
             }
+            Thread.Sleep(500);
         }
 
         private void Extron_PC_Pult_Click(object sender, EventArgs e)
@@ -99,11 +101,12 @@ namespace SR0._01_Mediensteuerung
 
             if (picturemute != "unmuted")
             {
-                Thread.Sleep(10);
+                Thread.Sleep(1500);
                 serialPort1.Write("0B");
                 picturemute = "unmuted";
 
             }
+            Thread.Sleep(500);
         }
 
         private void Extron_HDMI_Pult_Click(object sender, EventArgs e)
@@ -120,11 +123,12 @@ namespace SR0._01_Mediensteuerung
 
             if (picturemute != "unmuted")
             {
-                Thread.Sleep(10);
+                Thread.Sleep(1500);
                 serialPort1.Write("0B");
                 picturemute = "unmuted";
 
             }
+            Thread.Sleep(500);
         }
 
         private void Roland_HDMI_Pult_Click(object sender, EventArgs e)
@@ -552,6 +556,7 @@ namespace SR0._01_Mediensteuerung
                     serialPort1.Write("2B");
                 }
                 picturemute = "muted";
+                Thread.Sleep(500);
             }
         }
 
