@@ -33,14 +33,14 @@ namespace SR0._01_Mediensteuerung
             if (serialPort1.IsOpen)
             {
                 serialPort1.Write("X1!");
-                Thread.Sleep(100);               
+                Thread.Sleep(10);               
                 serialPort1.Write("0B");
             }
             else
             {
                 serialPort1.Open();
                 serialPort1.Write("X1!");
-                Thread.Sleep(100);
+                Thread.Sleep(10);
                 serialPort1.Write("0B");
             }
         }
@@ -65,14 +65,14 @@ namespace SR0._01_Mediensteuerung
             if (serialPort1.IsOpen)
             {
                 serialPort1.Write("X4!");
-                Thread.Sleep(100);
+                Thread.Sleep(10);
                 serialPort1.Write("0B");
             }
             else
             {
                 serialPort1.Open();
                 serialPort1.Write("X4!");
-                Thread.Sleep(100);
+                Thread.Sleep(10);
                 serialPort1.Write("0B");
             }
         }
@@ -82,14 +82,14 @@ namespace SR0._01_Mediensteuerung
             if (serialPort1.IsOpen)
             {
                 serialPort1.Write("X3!");
-                Thread.Sleep(100);
+                Thread.Sleep(10);
                 serialPort1.Write("0B");
             }
             else
             {
                 serialPort1.Open();
                 serialPort1.Write("X3!");
-                Thread.Sleep(100);
+                Thread.Sleep(10);
                 serialPort1.Write("0B");
             }
         }
@@ -99,14 +99,14 @@ namespace SR0._01_Mediensteuerung
             if (serialPort1.IsOpen)
             {
                 serialPort1.Write("X2!");
-                Thread.Sleep(100);
+                Thread.Sleep(10);
                 serialPort1.Write("0B");
             }
             else
             {
                 serialPort1.Open();
                 serialPort1.Write("X2!");
-                Thread.Sleep(100);
+                Thread.Sleep(10);
                 serialPort1.Write("0B");
             }
         }
