@@ -8,14 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using System.Windows.Forms;
+using System.IO.Ports;
+using System.IO;
 
 namespace SR0._01_Mediensteuerung
 {
-      public partial class Form1 : Form
+    public partial class Form1 : Form
     {
         string STX = "\x02"; //Steuerzeichen STX wird für Extron Umschalter benötigt
         string comport = "serialPort3"; //Hier wird die zu steuernde Kamera initial festgelegt
-        
+
         public Form1()
         {
             InitializeComponent();
