@@ -17,7 +17,7 @@ namespace SR0._01_Mediensteuerung
     {
         string STX = "\x02"; //Steuerzeichen STX wird für Extron Umschalter benötigt
         string comport = "serialPort3"; //Hier wird die zu steuernde Kamera initial festgelegt
-
+        string picturemute = "undef"; //Hier wird gespeichert ob der Extron Scaler ein Bild aus gibt
         public Form1()
         {
             InitializeComponent();
@@ -33,15 +33,19 @@ namespace SR0._01_Mediensteuerung
             if (serialPort1.IsOpen)
             {
                 serialPort1.Write("X1!");
-                Thread.Sleep(10);               
-                serialPort1.Write("0B");
             }
             else
             {
                 serialPort1.Open();
                 serialPort1.Write("X1!");
+            }
+            
+            if (picturemute != "unmuted")
+            {
                 Thread.Sleep(10);
                 serialPort1.Write("0B");
+                picturemute = "unmuted";
+                
             }
         }
 
@@ -65,15 +69,19 @@ namespace SR0._01_Mediensteuerung
             if (serialPort1.IsOpen)
             {
                 serialPort1.Write("X4!");
-                Thread.Sleep(10);
-                serialPort1.Write("0B");
             }
             else
             {
                 serialPort1.Open();
                 serialPort1.Write("X4!");
+            }
+
+            if (picturemute != "unmuted")
+            {
                 Thread.Sleep(10);
                 serialPort1.Write("0B");
+                picturemute = "unmuted";
+
             }
         }
 
@@ -82,15 +90,19 @@ namespace SR0._01_Mediensteuerung
             if (serialPort1.IsOpen)
             {
                 serialPort1.Write("X3!");
-                Thread.Sleep(10);
-                serialPort1.Write("0B");
             }
             else
             {
                 serialPort1.Open();
                 serialPort1.Write("X3!");
+            }
+
+            if (picturemute != "unmuted")
+            {
                 Thread.Sleep(10);
                 serialPort1.Write("0B");
+                picturemute = "unmuted";
+
             }
         }
 
@@ -99,15 +111,19 @@ namespace SR0._01_Mediensteuerung
             if (serialPort1.IsOpen)
             {
                 serialPort1.Write("X2!");
-                Thread.Sleep(10);
-                serialPort1.Write("0B");
             }
             else
             {
                 serialPort1.Open();
                 serialPort1.Write("X2!");
+            }
+
+            if (picturemute != "unmuted")
+            {
                 Thread.Sleep(10);
                 serialPort1.Write("0B");
+                picturemute = "unmuted";
+
             }
         }
 
@@ -524,14 +540,18 @@ namespace SR0._01_Mediensteuerung
 
         private void button7_Click(object sender, EventArgs e)
         {
-            if (serialPort1.IsOpen)
+            if (picturemute != "muted")
             {
-                serialPort1.Write("2B");
-            }
-            else
-            {
-                serialPort1.Open();
-                serialPort1.Write("2B");
+                if (serialPort1.IsOpen)
+                {
+                    serialPort1.Write("2B");
+                }
+                else
+                {
+                    serialPort1.Open();
+                    serialPort1.Write("2B");
+                }
+                picturemute = "muted";
             }
         }
 
